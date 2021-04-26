@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="35dp">
+    </LinearLayout>99
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:id="@+id/get_model"
+        android:layout_marginTop="50dp"
+        android:text="获取模型"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:background="@drawable/button2"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:id="@+id/virtual_fit"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:text="虚拟试衣"
+        android:background="@drawable/button2"/>
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_width="220dp"
+        android:layout_height="190dp"
+        android:background="@drawable/peach"/>
+</LinearLayout>

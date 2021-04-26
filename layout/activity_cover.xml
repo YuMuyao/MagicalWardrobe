@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:weightSum="1"
+    android:background="@color/colorWhite">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorWhite" />
+
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="177dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover"
+        android:layout_weight="0.20" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="魔力衣橱"
+        android:gravity="center"
+        android:textSize="43sp"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorWhite"
+        android:layout_weight="0.73" />
+    <LinearLayout
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:src="@drawable/logo"/>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MagicalWardrobe"
+                android:textSize="17sp"
+                android:typeface="serif"
+                android:textColor="@color/colorBlack"    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="by Fantastic Three"
+                android:textSize="13sp"
+                android:typeface="serif"
+                android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorWhite"
+        android:layout_weight="0.64" />
+
+    </LinearLayout>
+
+</LinearLayout>
